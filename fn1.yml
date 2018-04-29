@@ -1,0 +1,9 @@
+provider:
+  name: faas
+  gateway: http://localhost:8080
+
+functions:
+  fn1:
+    lang: go
+    handler: ./fn1
+    image: alexellis/fn1
