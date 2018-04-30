@@ -8,3 +8,4 @@ functions:
     handler: ./fn1
     image: alexellis/fn1
 
+
