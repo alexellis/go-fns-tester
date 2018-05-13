@@ -10,3 +10,7 @@ functions:
 
 
 
+  fn2:
+    lang: go
+    handler: ./fn2
+    image: fn2
