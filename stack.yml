@@ -8,9 +8,7 @@ functions:
     handler: ./fn1
     image: alexellis/fn1
 
-
-
-  fn2:
-    lang: go
-    handler: ./fn2
-    image: fn2
+#  fn2:
+#    lang: go
+#    handler: ./fn2
+#    image: fn2
