@@ -13,6 +13,6 @@ functions:
     handler: ./fn2
     image: fn2
     environment:
-      secret_name: "not-an-aws-key"
+      secret_name: "alexellis-not-an-aws-key"
     secrets:
     - not-an-aws-key
