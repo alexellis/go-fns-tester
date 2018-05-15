@@ -1,10 +1,18 @@
 package function
 
 import (
-	"fmt"
+	"io/ioutil"
+	"log"
+	"os"
 )
 
 // Handle a serverless request
 func Handle(req []byte) string {
-	return fmt.Sprintf("Hello, Go. You said: %s", string(req))
+	data, err := ioutil.ReadFile("/var/run/" + os.Getenv("secret_name"))
+
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	return string(data)
 }
