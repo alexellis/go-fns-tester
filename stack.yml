@@ -16,4 +16,3 @@ functions:
       secret_name: "alexellis-not-an-aws-key"
     secrets:
     - not-an-aws-key
-
