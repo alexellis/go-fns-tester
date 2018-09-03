@@ -8,3 +8,4 @@ Tests OpenFaaS Cloud status API with passing/failing builds
 These will be built:
 
 - fn1
+
