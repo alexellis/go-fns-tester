@@ -1,6 +1,5 @@
 provider:
   name: faas
-  gateway: 
 
 functions:
   fn1:
@@ -12,4 +11,3 @@ functions:
     lang: ruby
     handler: ./ruby-test
     image: alexellis2/ruby-test:latest
-
