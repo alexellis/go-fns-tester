@@ -6,13 +6,13 @@ functions:
   fn1:
     lang: go
     handler: ./fn1
-    image: alexellis/fn1:0.1
+    image: alexellis/fn1:0.2
 
-  fn2:
-    lang: go
-    handler: ./fn2
-    image: fn2
-    environment:
-      secret_name: "alexellis-not-an-aws-key"
+ # fn2:
+ #   lang: go
+#    handler: ./fn2
+#    image: fn2
+#    environment:
+#      secret_name: "alexellis-not-an-aws-key"
 #    secrets:
 #    - not-an-aws-key
