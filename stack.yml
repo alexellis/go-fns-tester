@@ -7,6 +7,7 @@ functions:
     lang: go
     handler: ./fn1
     image: alexellis2/fn1:0.2
+    
   ruby-test:
     lang: ruby
     handler: ./ruby-test
