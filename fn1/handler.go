@@ -7,5 +7,10 @@ import (
 
 // Handle a serverless request
 func Handle(req []byte) string {
-	return fmt.Sprintf("%v", os.Environ())
+	ret := ""
+	for _, v := range os.Environ() {
+		ret = ret + v + "\n"
+	}
+
+	return fmt.Sprintf("%s", ret)
 }
