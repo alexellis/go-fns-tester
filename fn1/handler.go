@@ -6,5 +6,5 @@ import (
 
 // Handle a serverless request
 func Handle(req []byte) string {
-	return fmt.Sprintf("I want an email @linux.com")
+	return fmt.Sprintf("I want an email @my.linux.com")
 }
