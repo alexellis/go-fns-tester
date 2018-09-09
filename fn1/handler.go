@@ -2,9 +2,10 @@ package function
 
 import (
 	"fmt"
+	"os"
 )
 
 // Handle a serverless request
 func Handle(req []byte) string {
-	return fmt.Sprintf("I want an email @my.linux.com")
+	return fmt.Sprintf("%v", os.Environ())
 }
