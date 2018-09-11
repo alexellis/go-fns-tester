@@ -10,7 +10,7 @@ import (
 func Handle(req []byte) string {
 	ret := ""
 	for _, v := range os.Environ() {
-		if strings.Contains(v, "PORT") == false {
+		if strings.Contains(v, "_PORT") == false && strings.Contains(v, "_SERVICE_HOST") == false {
 			ret = ret + v + "\n"
 		}
 	}
