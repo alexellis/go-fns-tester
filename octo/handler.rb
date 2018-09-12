@@ -2,8 +2,10 @@ require 'octokit'
 
 
 class Handler
-    def run(req)
-		if ENV["Http_Path"].length == 0 or ENV["Http_Path"] == "/" then
+	def run(req)
+		user = ENV["Http_Path"].gsub(/#{Regexp.escape('\/')}/, "")
+
+		if user.length == 0 then
 			return "To look-up the name of a GitHub user, pass their username as the HTTP path such as /alexellis"
 		end
 
