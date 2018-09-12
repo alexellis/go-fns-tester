@@ -3,7 +3,7 @@ require 'octokit'
 
 class Handler
     def run(req)
-		if ENV["Http_Path"].length == 0 then
+		if ENV["Http_Path"].length == 0 or ENV["Http_Path"] == "/" then
 			return "To look-up the name of a GitHub user, pass their username as the HTTP path such as /alexellis"
 		end
 
