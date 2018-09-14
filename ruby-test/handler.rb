@@ -1,5 +1,5 @@
 class Handler
     def run(req)
-        return "Hello world from the Ruby template"
+        return "Hello Allen"
     end
 end
