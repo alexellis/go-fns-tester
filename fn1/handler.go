@@ -15,5 +15,5 @@ func Handle(req []byte) string {
 		}
 	}
 
-	return fmt.Sprintf("%s", ret)
+	return fmt.Sprintf("Env:\n%s", ret)
 }
