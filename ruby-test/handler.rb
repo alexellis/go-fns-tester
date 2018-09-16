@@ -1,5 +1,5 @@
 class Handler
     def run(req)
-        return "Use the force"
+        return "Use --force"
     end
 end
