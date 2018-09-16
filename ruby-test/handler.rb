@@ -1,5 +1,5 @@
 class Handler
     def run(req)
-        return "Hello Lucas"
+        return "Use the force"
     end
 end
