@@ -1,5 +1,5 @@
 class Handler
     def run(req)
-        return "Use --force"
+        return "Use git commit --force"
     end
 end
