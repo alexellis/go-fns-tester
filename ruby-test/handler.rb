@@ -1,5 +1,5 @@
 class Handler
     def run(req)
-        return "Use a pan"
+        return "Use a watchdog"
     end
 end
