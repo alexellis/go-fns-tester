@@ -1,5 +1,5 @@
 class Handler
     def run(req)
-        return "Use a sauce-pan"
+        return "Use a pan"
     end
 end
