@@ -1,5 +1,5 @@
 class Handler
     def run(req)
-        return "Use a watchdog"
+        return "Use the watchdog"
     end
 end
