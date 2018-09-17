@@ -1,5 +1,5 @@
 class Handler
     def run(req)
-        return "Use git commit --force"
+        return "Use a sauce-pan"
     end
 end
