@@ -15,5 +15,6 @@ func Handle(req []byte) string {
 		}
 	}
 
+	
 	return fmt.Sprintf("Filtered env-vars:\n%s", ret)
 }
