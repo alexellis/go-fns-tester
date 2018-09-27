@@ -10,7 +10,7 @@ functions:
   octo:
     lang: ruby
     handler: ./octo
-    image: alexellis/octo:latest
+    image: alexellis/octo:0.2
   ruby-test:
     lang: ruby
     handler: ./ruby-test
