@@ -15,6 +15,7 @@ functions:
     lang: ruby
     handler: ./ruby-test
     image: alexellis2/ruby-test:0.1
+
   serve:
     lang: python3
     handler: ./serve
