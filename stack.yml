@@ -24,3 +24,4 @@ functions:
     image: alexellis/serve:latest
     environment:
        content_type: text/html
+
