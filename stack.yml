@@ -21,7 +21,6 @@ functions:
   serve:
     lang: python3
     handler: ./serve
-    image: alexellis/serve:latest
+    image: alexellis/serve:0.1
     environment:
        content_type: text/html
-
